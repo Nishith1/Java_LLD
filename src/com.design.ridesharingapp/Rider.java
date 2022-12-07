@@ -8,7 +8,7 @@ public class Rider extends Person {
     }
 
     ArrayList<Ride> completedRides = new ArrayList<>();
-    Ride currentRide;
+    Ride currentRide = new Ride();
 
     public void createRide(int rideId, int origin, int destination, int numOfSeats){
         if(origin>destination){

@@ -10,6 +10,10 @@ public class Ride {
     int numberOfSeats;
     RideStatus rideStatus;
 
+
+    public Ride() {
+    }
+
     public Ride(int id, int origin, int destination, int numberOfSeats, RideStatus rideStatus) {
         this.id = id;
         this.origin = origin;
